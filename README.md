@@ -28,7 +28,7 @@ app/etc/config.php and app/etc/env.php files are intentionally versioned to allo
 
 I will also try to enrich this repository with free modules and tools that I find helpful for Magento development.
 
-Currently, following packaged are installed, outside the Magento Open Source core:
+Currently, following modules and tools are installed, outside the Magento Open Source core:
 
 - markshust/magento2-module-disabletwofactorauth https://github.com/markshust/magento2-module-disabletwofactorauth
 - n98/magerun2-dist https://packagist.org/packages/n98/magerun2-dist
