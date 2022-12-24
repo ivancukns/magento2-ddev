@@ -1,12 +1,16 @@
 # [Magento Open Source](https://github.com/magento/magento2) - ddev setup
 
-#### This repository is meant for quick starting [Magento Open Source](https://github.com/magento/magento2) software locally, with the help of ddev.
-#### Possible use-cases: setting up quickly a vanilla Magento web store locally for testing puroses, or as a starting point for new projects.
-#### More about Magento Open Source: https://github.com/magento/magento2
+This repository is meant for quick starting [Magento Open Source](https://github.com/magento/magento2) software locally, with the help of ddev.
 
-#### DDEV is an open source tool for launching local PHP development environments in minutes:
-#### DDEV GitHub repository: https://github.com/drud/ddev
-#### DDEV documentation: https://ddev.readthedocs.io/en/stable/
+Possible use-cases: setting up quickly a vanilla Magento web store locally for testing purposes, or as a starting point for new projects.
+
+More about Magento Open Source: https://github.com/magento/magento2
+
+DDEV is an open source tool for launching local PHP development environments in minutes.
+
+DDEV GitHub repository: https://github.com/drud/ddev
+
+DDEV documentation: https://ddev.readthedocs.io/en/stable/
 
 # Get Started
 
