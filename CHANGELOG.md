@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.0] - 2023-01-12
+
+### Added
+
+- add deployer/deployer package. More info about the tool: https://deployer.org
+- basic configuration file for the deploy.php
+- move deploy.php out of the root
+- create ddev command to execute the dep commands
+- git ignore non-sample deployer configuration files
+
 ## [1.0.0] - 2022-12-24
 
 ### Added
