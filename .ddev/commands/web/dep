@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## Description: execute deployer dep command
+## Usage: dep <command>
+## Example: "dep deploy"
+## ProjectTypes: magento2
+
+vendor/bin/dep -f=deployer/deploy.php $*
