@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "341a9b32238aa1da1dfacf8de658dd51",
+    "content-hash": "dd471e75b263992568b3c6e55c7f16e6",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -16753,50 +16753,6 @@
             "time": "2022-06-21T01:22:39+00:00"
         },
         {
-            "name": "markshust/magento2-module-disabletwofactorauth",
-            "version": "2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/markshust/magento2-module-disabletwofactorauth.git",
-                "reference": "224c68d85479938f06ab2400148778575784871c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/markshust/magento2-module-disabletwofactorauth/zipball/224c68d85479938f06ab2400148778575784871c",
-                "reference": "224c68d85479938f06ab2400148778575784871c",
-                "shasum": ""
-            },
-            "require": {
-                "magento/framework": "^103",
-                "php": "^7||^8"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MarkShust\\DisableTwoFactorAuth\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "The DisableTwoFactorAuth module provides the ability to disable two-factor authentication.",
-            "support": {
-                "issues": "https://github.com/markshust/magento2-module-disabletwofactorauth/issues",
-                "source": "https://github.com/markshust/magento2-module-disabletwofactorauth/tree/2.0.1"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/markshust",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-10-24T17:11:14+00:00"
-        },
-        {
             "name": "monolog/monolog",
             "version": "2.8.0",
             "source": {
@@ -22227,6 +22183,49 @@
             "time": "2022-02-04T12:51:07+00:00"
         },
         {
+            "name": "deployer/deployer",
+            "version": "v7.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deployphp/deployer.git",
+                "reference": "28934ad0af2b70dbd9cc60b33c5454778b3dd6c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/28934ad0af2b70dbd9cc60b33c5454778b3dd6c1",
+                "reference": "28934ad0af2b70dbd9cc60b33c5454778b3dd6c1",
+                "shasum": ""
+            },
+            "bin": [
+                "dep"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Medvedev",
+                    "email": "anton@medv.io"
+                }
+            ],
+            "description": "Deployment Tool",
+            "homepage": "https://deployer.org",
+            "support": {
+                "docs": "https://deployer.org/docs",
+                "issues": "https://github.com/deployphp/deployer/issues",
+                "source": "https://github.com/deployphp/deployer"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/antonmedv",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-01-09T10:14:17+00:00"
+        },
+        {
             "name": "doctrine/annotations",
             "version": "1.14.2",
             "source": {
@@ -23004,6 +23003,50 @@
                 "source": "https://github.com/magento/magento2-functional-testing-framework/tree/3.12.0"
             },
             "time": "2022-12-06T06:50:38+00:00"
+        },
+        {
+            "name": "markshust/magento2-module-disabletwofactorauth",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markshust/magento2-module-disabletwofactorauth.git",
+                "reference": "224c68d85479938f06ab2400148778575784871c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markshust/magento2-module-disabletwofactorauth/zipball/224c68d85479938f06ab2400148778575784871c",
+                "reference": "224c68d85479938f06ab2400148778575784871c",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "^103",
+                "php": "^7||^8"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MarkShust\\DisableTwoFactorAuth\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The DisableTwoFactorAuth module provides the ability to disable two-factor authentication.",
+            "support": {
+                "issues": "https://github.com/markshust/magento2-module-disabletwofactorauth/issues",
+                "source": "https://github.com/markshust/magento2-module-disabletwofactorauth/tree/2.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/markshust",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-10-24T17:11:14+00:00"
         },
         {
             "name": "mustache/mustache",
