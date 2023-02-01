@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0] - 2023-02-01
+
+### Added
+
+- add all magento/module-*-sample-data packages
+
 ## [1.1.0] - 2023-01-12
 
 ### Added
