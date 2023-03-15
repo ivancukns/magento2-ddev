@@ -20,8 +20,8 @@
         "avstudnitz/scopehint2": "^1.2",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "~2.0",
-        "magento/product-community-edition": "2.4.5-p1",
-        "n98/magerun2-dist": "^6.1"
+        "magento/product-community-edition": "2.4.6",
+        "n98/magerun2-dist": "^7"
     },
     "autoload": {
         "exclude-from-classmap": [
