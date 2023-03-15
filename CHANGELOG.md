@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0] - 2023-03-15
+
+### Update
+
+- Magento Open Source version 2.4.6
+- migration from elasticsearch to opensearch
+
 ## [1.1.0] - 2023-01-12
 
 ### Added
