@@ -78,5 +78,14 @@ return [
     ],
     'install' => [
         'date' => 'Fri, 23 Dec 2022 13:09:31 +0000'
+    ],
+    'system' => [
+        'default' => [
+            'smile_elasticsuite_core_base_settings' => [
+                'es_client' => [
+                    'servers' => 'opensearch:9200'
+                ]
+            ]
+        ]
     ]
 ];

@@ -1,10 +1,9 @@
-#ddev-generated
-version: '3.6'
 services:
   opensearch:
     container_name: ddev-${DDEV_SITENAME}-opensearch
     hostname: ${DDEV_SITENAME}-opensearch
-    image: opensearchproject/opensearch:1.2.4
+    build:
+      context: ./opensearch
     expose:
       - "9200"
       - "9201"
